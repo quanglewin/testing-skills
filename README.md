@@ -10,7 +10,7 @@ A collection of AI agent skills for generating high-quality unit tests. These sk
 
 ```bash
 # Install skills
-npx openskills install quanglewin/dotnet-typescript-unit-test-skills
+npx openskills install quanglewin/testing-skills
 
 # Auto-generate/update AGENTS.md with installed skills
 npx openskills sync
@@ -21,14 +21,14 @@ npx openskills sync
 ### Option 2: Using npx skills
 
 ```bash
-npx skills add quanglewin/dotnet-typescript-unit-test-skills
+npx skills add quanglewin/testing-skills
 ```
 
 Or install specific skills:
 
 ```bash
-npx skills add quanglewin/dotnet-typescript-unit-test-skills --skill generate-test-cases
-npx skills add quanglewin/dotnet-typescript-unit-test-skills --skill generate-tests
+npx skills add quanglewin/testing-skills --skill generate-test-cases
+npx skills add quanglewin/testing-skills --skill generate-tests
 ```
 
 > **Note:** the repo-internal `eval-skills` and `improve-skill` live under `internal/` and are never installed (installers consume `skills/` only). Pin to a release tag for reproducible installs.
@@ -36,7 +36,7 @@ npx skills add quanglewin/dotnet-typescript-unit-test-skills --skill generate-te
 For Claude Code specifically:
 
 ```bash
-npx skills add quanglewin/dotnet-typescript-unit-test-skills -a claude-code
+npx skills add quanglewin/testing-skills -a claude-code
 ```
 
 **Important:** After installing with `npx skills`, manually add the snippet from [`templates/AGENTS-SNIPPET.md`](templates/AGENTS-SNIPPET.md) to your project's `AGENTS.md` file.

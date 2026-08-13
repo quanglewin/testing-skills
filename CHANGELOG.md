@@ -5,12 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-> **For consumers:** pin installs to a release tag for reproducible behavior.
-> No version tags exist yet — `v1.0.0` will be the first tagged release.
+> **For consumers:** pin installs to a release tag for reproducible behavior,
+> e.g. `npx openskills install quanglewin/testing-skills#v1.0.0`.
 
 ## [Unreleased]
 
-Enterprise-hardening changes (2026-08-13):
+- README install commands updated to the current repo (`quanglewin/testing-skills`); changelog restructured for the v1.0.0 release
+
+## [1.0.0] - 2026-08-13
+
+First tagged release ([v1.0.0](https://github.com/quanglewin/testing-skills/releases/tag/v1.0.0)). Four installable skills — `generate-tests`, `generate-test-cases`, `generate-tests-playwright`, `review-tests` — plus the internal eval harness. Enterprise-hardening changes included in this release:
 
 ### Added
 
